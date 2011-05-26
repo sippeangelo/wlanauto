@@ -1,0 +1,17 @@
+Disclaimer: This piece of ugly code is very specific to the system. Don't expect it to work out of
+the box. It can be GREATLY optimized and SHOULD if it ever would be used in a production environment.
+
+I made this as a free alternative to the product offered at http://www.wirelessautoswitch.com/.
+
+The idea is to provide a service that automatically disable any Wireless connection when the
+computer is connected to a LAN connection and vice versa.
+
+Since I did not find any good way to detect disabled network adapters and identify them as wireless,
+the service scans for a network adapter named "Wireless Network Connection" on the control panel
+for network connections. If you have multiple Wireless or LAN connections this will be chosen randomly.
+
+Wlanauto4 is a Windows Service. Install it by passing the -i switch to the program. It will not start
+automatically after installation, though the service is configured to start automatically on boot.
+
+The service will check if your LAN adapter is connected to any network every 3 seconds. If it isn't
+connected the service will enable the Wireless adapter, and the other way around.
