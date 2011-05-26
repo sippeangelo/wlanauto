@@ -3,7 +3,10 @@ bin/*
 
 # No VC trash
 vc2010/*.sdf
+vc2010/*.opensdf
 vc2010/*.ncb
+vc2010/*.suo
+vc2010/*.user
 vc2010/ipch/*
 vc2010/Release/*
 vc2010/Debug/*
