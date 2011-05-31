@@ -1,5 +1,6 @@
 Disclaimer: This piece of ugly code is very specific to the system. Don't expect it to work out of
-the box. It can be GREATLY optimized and SHOULD if it ever would be used in a production environment.
+the box. It can be GREATLY optimized and SHOULD if it ever would be used in any production environment
+it is not designed for.
 
 I made this as a free alternative to the product offered at http://www.wirelessautoswitch.com/.
 
